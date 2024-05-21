@@ -1,0 +1,118 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+#header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Menú de navegación */
+.nav {
+    background-color: #e0e0e0;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Contenido principal */
+.main-content {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title, .section-subtitle {
+    color: #333;
+    font-weight: bold;
+}
+
+.section-text, .section-list, .section-table {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Contenido adicional */
+.aside {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.aside a, .aside img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+#footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+#footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Estilos del formulario */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+form label {
+	margin-bottom: 10px;
+	color: #333;
+}
+
+form input[type="text"], form input[type="email"], form input[type="date"], form input[type="password"], form textarea, form select {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="radio"], form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+form input[type="submit"], form input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover, form input[type="reset"]:hover {
+    background-color: #45a049;
+}
